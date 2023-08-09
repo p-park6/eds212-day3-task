@@ -2,10 +2,24 @@
 title: "eds212-day3-task"
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+#create 2 vectors
+vec_a <- c(1,6)
+vec_b <- c(2,4)
+#combine the vectors together
+a_plus_b <- vec_a + vec_b
+b_minus_a <- vec_b - vec_a
+four_a <- 4 * vec_a
+a_times_b <- vec_a %*% vec_b
+#show combined vectors. remember that %*% is how you do dot product.
+a_plus_b
+b_minus_a
+four_a
+a_times_b
+```
 
 ```{r}
-1 + 1
+
 ```
+
+
